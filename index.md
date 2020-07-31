@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 venue: "SADiLaR, South Africa "        # brief name of host site without address (e.g., "Euphoric State University")
-address: "[https://carpentries.zoom.us/my/carpentriesroom1](https://carpentries.zoom.us/my/carpentriesroom1)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "za"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 latitude: "0"     # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -15,6 +15,9 @@ helper: ["TBA"]     # boxed, comma-separated list of helpers' names, like ["Marl
 email: ["angelique@carpentries.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2020-08-24-ONLINE   # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:  115472727035   # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+locations:
+  - venue: "Online"
+    address: "https://carpentries.zoom.us/my/carpentriesroom1"
 ---
 
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
@@ -95,6 +98,21 @@ workshop is only open to people from a particular institution.
 {% include dc/who.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
+{% endif %}
+
+{% comment %}
+
+LOCATION
+
+This block displays the address and links to maps showing directions
+if the latitude and longitude of the workshop have been set.  You
+can use https://itouchmap.com/latlong.html to find the lat/long of an
+address.
+
+<p id="where">
+This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is <{{ loc.address }}>.
+
+</p>
 {% endif %}
 
 {% comment %}
