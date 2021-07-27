@@ -111,7 +111,7 @@ address.
   <strong>Where:</strong>
 
   This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is
-  <a href="//https://zoom.us/j/95301573910?pwd=YlBTRm85bjh0VlJzNWFKZ3RuTEt2UT09
+  <a href="https://zoom.us/j/95301573910?pwd=YlBTRm85bjh0VlJzNWFKZ3RuTEt2UT09
 ">https://zoom.us/j/95301573910?pwd=YlBTRm85bjh0VlJzNWFKZ3RuTEt2UT09
 </a>
 </p>
